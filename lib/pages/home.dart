@@ -12,7 +12,6 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   bool alreadyVisited;
-  bool isOnboarding = false;
 
   Future<bool> getPage() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
